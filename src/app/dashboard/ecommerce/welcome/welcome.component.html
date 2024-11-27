@@ -8,37 +8,38 @@
                 Good Morning, <span>Bhavik Prajapati!</span>
             </h5>
             <p>
-                Here's what's happening with your store today.
+                Here's what's happening with your site today.
             </p>
             <mat-divider></mat-divider>
             <div class="d-md-flex align-items-center">
                 <div class="item d-flex align-items-center">
                     <div class="icon text-primary bg-primary-50 border-radius d-flex align-items-center justify-content-center">
                         <i class="material-symbols-outlined">
-                            shopping_bag
+                            group
                         </i>
                     </div>
                     <div>
                         <span class="title d-block fw-semibold text-white">
-                            86 New orders
+                            {{totaluserscount}} Users
                         </span>
+
                         <span class="d-block">
-                            Awaiting processing
+                            <!-- Awaiting processing -->
                         </span>
                     </div>
                 </div>
                 <div class="item d-flex align-items-center">
                     <div class="icon text-danger bg-danger-50 border-radius d-flex align-items-center justify-content-center">
                         <i class="material-symbols-outlined">
-                            chat_error
+                            rss_feed
                         </i>
                     </div>
                     <div>
                         <span class="title d-block fw-semibold text-white">
-                            35 Products
+                            {{totalblogscount}} Blogs
                         </span>
                         <span class="d-block">
-                            Out of stock
+                            <!-- Out of stock -->
                         </span>
                     </div>
                 </div>

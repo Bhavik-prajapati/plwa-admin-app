@@ -50,10 +50,15 @@
                         <ul class="sidebar-sub-menu">
                             <li class="sidemenu-item">
                                 <a routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
-                                    eCommerce
+                                    Dashboard
                                 </a>
                             </li>
                             <li class="sidemenu-item">
+                                <a routerLink="/dashboard/users" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
+                                    Users List
+                                </a>
+                            </li>
+                            <!-- <li class="sidemenu-item">
                                 <a routerLink="/dashboard/crm" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
                                     CRM
                                     <span class="trezo-badge d-inline-block position-relative">
@@ -78,7 +83,7 @@
                                         Top
                                     </span>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </mat-expansion-panel>
                     <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
